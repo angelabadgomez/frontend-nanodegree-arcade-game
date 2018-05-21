@@ -8,7 +8,7 @@ frontend-nanodegree-arcade-game
 * [Game's description](#games-description)
 * [Screenshots](#screenshots)
 * [How to play](#how-to-play)
-* [Future additions](#future-additions)
+* [TODO](#todo)
 * [Author](#author)
 * [Contributing](#contributing)
 * [Dependencies](#dependencies)
@@ -32,7 +32,7 @@ This is a classic arcade game. It can help you improve your reaction skills.
 4. If you are touched by the enemy 4 times, the game is over.
 
 
-## Future additions
+## TODO
 
 There will be added more players and new gems.
 
@@ -54,16 +54,13 @@ It is not possible to contribute to this project.
 
 ## Resources
 
-### Fonts
+### Base HTML, javascript code and CSS styles
+* HTML code and CSS provided by the Udacity Nanodegree Front-End Web Developer Program.
 * Art assets and game engine provided by Udacity.
-* The collision code was inspired on the [Box collison in JavaScrip](thttps://javascript.wekeepcoding.com/article/11446068/Box+collison+in+JavaScript)
+* The collision code was inspired on the [Box collison in JavaScrip](https://javascript.wekeepcoding.com/article/11446068/Box+collison+in+JavaScript)
 
 ### Technologies
 
 * HTML
 * CSS
 * Javascript ES6
-
-### Base HTML code and CSS styles
-
-Provided by the Udacity Nanodegree Front-End Web Developer Program for this project.
