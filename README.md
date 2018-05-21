@@ -1,6 +1,3 @@
-frontend-nanodegree-arcade-game
-===============================
-
 # Frontend-nanodegree-arcade-game
 
 ## Table of Contents
@@ -8,6 +5,7 @@ frontend-nanodegree-arcade-game
 * [Game's description](#games-description)
 * [Screenshots](#screenshots)
 * [How to play](#how-to-play)
+* [Play online](#play-online)
 * [TODO](#todo)
 * [Author](#author)
 * [Contributing](#contributing)
@@ -30,6 +28,11 @@ This is a classic arcade game. It can help you improve your reaction skills.
 2. To earn points you have to reach the water and collect gems.
 3. You have 3 lives + 1 bonus live. If an enemy touch you it will take one live from you.
 4. If you are touched by the enemy 4 times, the game is over.
+
+
+## Play online
+
+You can try the game [online] (https://angelabadgomez.github.io/frontend-nanodegree-arcade-game/).
 
 
 ## TODO
@@ -57,7 +60,7 @@ It is not possible to contribute to this project.
 ### Base HTML, javascript code and CSS styles
 * HTML code and CSS provided by the Udacity Nanodegree Front-End Web Developer Program.
 * Art assets and game engine provided by Udacity.
-* The collision code was inspired on the [Box collison in JavaScrip](https://javascript.wekeepcoding.com/article/11446068/Box+collison+in+JavaScript)
+* The collison code was inspired on the [Box collison in JavaScrip](https://javascript.wekeepcoding.com/article/11446068/Box+collison+in+JavaScript)
 
 ### Technologies
 
