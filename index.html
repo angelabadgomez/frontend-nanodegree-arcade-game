@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="startDiv">
+  <div id="startText">
+    <h1>How to play</h1>
+    <img src="images/char-boy.png" alt="Char-boy player">
+    <ul>
+      <li>You have to earn 500 points to win the game</li>
+      <li>To earn points you have to reach the water and collect gems</li>
+      <li>You have 3 lives + 1 bonus live. If an enemy touch you it will take one live from you</li>
+      <li>If you are touched by the enemy 4 times, the game is over</li>
+    </ul>
+    <button class="play" value="startDiv" onclick="hideDiv(this.value)">Play</button>
+    <p></p>
+  </div>
+</div>
+<div id="winDiv">
+  <div id="winText">
+    <h1>You won!</h1>
+    <img src="images/Star.png" alt="You won!"><img src="images/char-boy.png" alt="Char-boy player">
+    <button class="play" value="winDiv" onclick="hideDiv(this.value)">Play again</button>
+    <p></p>
+  </div>
+</div>
+<div id="gameOverDiv">
+  <div id="gameOverText">
+    <h1>You lose!</h1>
+    <img src="images/enemy-bug.png" alt="Enemy bug"><img src="images/char-boy.png" alt="Char-boy player">
+    <p>Remember the rules:</p>
+    <ul>
+      <li>You have to earn 500 points to win the game</li>
+      <li>To earn points you have to reach the water and collect gems</li>
+      <li>You have 3 lives + 1 bonus live. If an enemy touch you it will take one live from you</li>
+      <li>If you are touched by the enemy 4 times, the game is over</li>
+    </ul>
+    <button class="play" value="gameOverDiv" onclick="hideDiv(this.value)">Play again</button>
+    <p></p>
+  </div>
+</div>
+  <div class="container">
+    <div><h1 id="title">The frogger game</h1></p>
+    <div id='lives'>Lives: </div>
+    <div id='points'>Points: </div>
+</div>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>

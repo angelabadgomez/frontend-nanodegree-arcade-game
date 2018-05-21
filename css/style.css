@@ -1,0 +1,132 @@
+body {
+    text-align: center;
+    background-color: #e2f5e8;
+}
+
+h1 {
+  font-size: 40px;
+  color: #f1edc1;
+  margin-bottom: -15px;
+}
+
+ul {
+  list-style: decimal;
+  text-align:left;
+}
+
+button {
+  color: #57806d;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 0 auto;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  min-height: 80px;
+  font-size: 1.5em;
+}
+
+#title {
+  color: #8c4848;
+}
+
+#lives{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  vertical-align: baseline;
+}
+
+#lives img {
+  width: 20px;
+  height: 30px;
+  vertical-align: baseline;
+}
+
+#points{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  vertical-align: baseline;
+}
+
+#startDiv {
+  position: fixed;
+  display: table;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}
+
+#startText {
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  text-align: center;
+  align-items: center;
+  background-color: rgba(53, 105, 97, 0.82);
+}
+
+#winDiv {
+  position: fixed;
+  display: none;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}
+
+#winText{
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  text-align: center;
+  align-items: center;
+  background-color: rgba(53, 105, 97, 0.82);
+}
+
+#gameOverDiv {
+  position: fixed;
+  display: none;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}
+
+#gameOverText{
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  text-align: center;
+  align-items: center;
+  background-color: rgba(53, 105, 97, 0.82);
+}
