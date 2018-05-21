@@ -32,7 +32,7 @@ This is a classic arcade game. It can help you improve your reaction skills.
 
 ## Play online
 
-You can try the game [online] (https://angelabadgomez.github.io/frontend-nanodegree-arcade-game/).
+You can try the game [online](https://angelabadgomez.github.io/frontend-nanodegree-arcade-game/).
 
 
 ## TODO
