@@ -5,6 +5,7 @@
 * [Game's description](#games-description)
 * [Screenshots](#screenshots)
 * [How to play](#how-to-play)
+* [Install and run](#install-and-run)
 * [Play online](#play-online)
 * [TODO](#todo)
 * [Author](#author)
@@ -28,6 +29,11 @@ This is a classic arcade game. It can help you improve your reaction skills.
 2. To earn points you have to reach the water and collect gems.
 3. You have 3 lives + 1 bonus live. If an enemy touch you it will take one live from you.
 4. If you are touched by the enemy 4 times, the game is over.
+
+
+## Install and run
+
+Get a copy of the game from the  [repository](https://github.com/angelabadgomez/frontend-nanodegree-arcade-game), uncompress the zip file to a folder and open the index.html file in your browser.
 
 
 ## Play online
